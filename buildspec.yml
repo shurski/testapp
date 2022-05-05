@@ -18,6 +18,7 @@ phases:
       - npm run build
 artifacts:
   files:
+    - out/_next/**/*
     - out/index.html
     - out/users.html
     - out/404.html
