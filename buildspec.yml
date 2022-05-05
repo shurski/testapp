@@ -18,9 +18,9 @@ phases:
       - npm run build
 artifacts:
   files:
-    - out/index.html
+    - index.html
   discard-paths: no
-  base-directory: outputDirectory
+  base-directory: out
   secondary-artifacts:
     artifact1:
       files:
