@@ -19,7 +19,8 @@ phases:
 artifacts:
   files:
     - out/index.html
-  discard-paths: yes
+  discard-paths: no
+  base-directory: outputDirectory
   secondary-artifacts:
     artifact1:
       files:
