@@ -17,6 +17,9 @@ phases:
       - echo Compiling the Node.js code
       - npm run build
 artifacts:
+  files:
+    - out/index.html
+  discard-paths: yes
   secondary-artifacts:
     artifact1:
       files:
@@ -24,7 +27,6 @@ artifacts:
       discard-paths: no
     artifact2:
       files:
-        - out/index.html
         - out/users.html
         - out/404.html
       discard-paths: yes
