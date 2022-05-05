@@ -18,9 +18,12 @@ phases:
       - npm run build
 artifacts:
   files:
-    - out/_next/**/*
     - out/index.html
     - out/users.html
     - out/404.html
   discard-paths: yes
-  
+  secondary-artifacts:
+    artifact1:
+      files:
+        - out/_next/**/*
+      discard-paths: no
