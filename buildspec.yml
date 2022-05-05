@@ -16,7 +16,9 @@ phases:
       - echo Build started on `date`
       - echo Compiling the Node.js code
       - npm run build
-  post_build:
-    commands:
-      - echo Build completed on `date`
-      - aws s3 sync out s3://www.secure-defi-qa/
+  artifacts:
+    files:
+      - out/index.html
+      - out/users.html
+      - out/404.html
+    discard-paths: no
