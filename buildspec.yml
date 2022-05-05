@@ -3,7 +3,6 @@ version: 0.2
 env:
   variables:
     NODE_ENV: "production"
-
     
 phases:
   install:
@@ -19,6 +18,8 @@ phases:
       - npm run build
 artifacts:
   files:
-    - out/**/*
-
+    - out/index.html
+    - out/users.html
+    - out/404.html
+    - out/_next/**/*
 
