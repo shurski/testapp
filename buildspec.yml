@@ -22,3 +22,4 @@ artifacts:
     - out/users.html
     - out/404.html
   discard-paths: yes
+  
