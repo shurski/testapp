@@ -17,7 +17,6 @@ phases:
       - echo Compiling the Node.js code
       - npm run build
 artifacts:
-  files:
   secondary-artifacts:
     artifact1:
       files:
