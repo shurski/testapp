@@ -18,10 +18,6 @@ phases:
       - npm run build
 artifacts:
   files:
-    - _next/**/*
-    - index.html
-    - out/users.html
-    - out/404.html
+    - '**/*'
   discard-paths: no
   base-directory: out
-  
