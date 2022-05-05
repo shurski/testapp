@@ -16,9 +16,9 @@ phases:
       - echo Build started on `date`
       - echo Compiling the Node.js code
       - npm run build
-  artifacts:
-    files:
-      - out/index.html
-      - out/users.html
-      - out/404.html
-    discard-paths: no
+artifacts:
+  files:
+    - out/index.html
+    - out/users.html
+    - out/404.html
+  discard-paths: no
